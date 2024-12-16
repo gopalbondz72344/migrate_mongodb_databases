@@ -18,7 +18,7 @@ Once you have the data dump, you can use `mongorestore` to import the data into 
 
 **Command:**
 ```bash
-mongorestore --uri="mongodb+srv://<username>:<password>@<cluster>.mongodb.net" ./data/solarR&Ddatabase
+mongorestore --uri="mongodb+srv://<username>:<password>@<cluster>.mongodb.net" ./data
 ```
 - `--uri="mongodb+srv://<username>:<password>@<cluster>.mongodb.net"`: This is the connection URI for your MongoDB Atlas cluster. Replace `<username>`, `<password>`, and `<cluster>` with your own credentials and cluster details.
 - `./data/solarR&Ddatabase`: This points to the dump directory, specifically the database folder you want to restore.
